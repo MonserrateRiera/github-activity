@@ -64,7 +64,7 @@ public class Main {
                 if (activity.getRepo().equals(repoName) && activity.getType().equals(type)) {
                     activity.incrementCount();
                     found = true;
-                    break;  // Importante: si lo encontramos, no seguimos recorriendo la lista
+                    break;
                 }
             }
             if (!found) {
@@ -73,7 +73,7 @@ public class Main {
         }
         // Mostrar resultados
         for (Activity activity : activities) {
-            System.out.println(activity.toString());
+            System.out.println(activity.createMessage());
         }
     }
 
