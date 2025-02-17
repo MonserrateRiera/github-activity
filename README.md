@@ -17,13 +17,13 @@ cd github-activity/src/main/java
 ``
 2. To execute its mandatory use a username as argument. Its possible make it through the IDE or CLI. Commands for CLI:
    + Compile:
-    ``
-        javac Main.java
-   ``
-
-    + Execute 
 ``
-java Main <username>
+        javac Main.java
+``
+
+   + Execute 
+``
+      java Main <username>
 ``
 where username is the account we want to check the events.
 
